@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601759015928",
+    "project_id": "edp-66a51",
+    "storage_bucket": "edp-66a51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601759015928:android:1a924bb6ba99bc480d2c0d",
+        "android_client_info": {
+          "package_name": "com.example.smart_agri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ66Nql8W_49xQg2pEaLlE3UtlB4mtHZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

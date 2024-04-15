@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17089231788",
+    "project_id": "registration-123e5",
+    "storage_bucket": "registration-123e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17089231788:android:4f604052c7066f46431809",
+        "android_client_info": {
+          "package_name": "com.example.smart_agri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl2i9W8_IitXD4pRFEpXDSguEU92Vtot8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

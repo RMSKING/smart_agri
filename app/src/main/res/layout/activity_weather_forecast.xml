@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".weather_forecast"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/rlRoot">
+
+    <RelativeLayout
+        android:id="@+id/rlMain"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/lavender"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"/>
+
+
+
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_below="@+id/txtcity"
+            android:textColor="#ffffff"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:id="@+id/imgicon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/txtTime"
+            android:src="@drawable/wf1"/>
+
+        <TextView
+            android:id="@+id/txtvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/imgicon"
+            android:text="3°"
+            android:textSize="70dp"
+            android:textColor="#ffff"
+            android:fontFamily="sans-serif-condensed-light" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/rlMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="16dp">
+
+
+
+        <ImageView
+            android:id="@+id/imgFelllike"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/temperature"/>
+
+        <TextView
+            android:id="@+id/txtTitlefelllike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgFelllike"
+            android:text="Fell Like"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txtvalue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitlefelllike"
+            android:layout_alignLeft="@+id/txtTitlefelllike"
+            android:text="7°"
+            android:textSize="32dp"/>
+
+
+        <ImageView
+            android:id="@+id/imghumidity"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/drops"
+            android:layout_below="@+id/imgFelllike"
+            android:layout_marginTop="30dp"/>
+
+
+        <TextView
+            android:id="@+id/txtTitlefhumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imghumidity"
+            android:layout_alignTop="@+id/imghumidity"
+            android:text="Humidity"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txthumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitlefhumidity"
+            android:layout_alignLeft="@+id/txtTitlefelllike"
+            android:text="7°"
+            android:textSize="32dp"/>
+
+        <ImageView
+            android:id="@+id/imgvision"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pienacular"
+            android:layout_below="@+id/imghumidity"
+            android:layout_marginTop="30dp"/>
+
+
+        <TextView
+            android:id="@+id/txtTitlevision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgvision"
+            android:layout_alignTop="@+id/imgvision"
+            android:text="Vision"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txtvision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitlevision"
+            android:layout_alignLeft="@+id/txtTitlevision"
+            android:text="7°"
+            android:textSize="32dp"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+

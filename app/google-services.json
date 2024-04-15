@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "980796172214",
+    "project_id": "expense-tracker-ab962",
+    "storage_bucket": "expense-tracker-ab962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980796172214:android:75d6fb8046c09f40668317",
+        "android_client_info": {
+          "package_name": "com.example.smart_agri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANBSXSpeRqCfK-bpaWxsSdn-IqrHoE9fw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
